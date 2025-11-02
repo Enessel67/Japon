@@ -30,13 +30,14 @@ body {
 
 .sous-nav {
   list-style: none;
-  display: none;
+  display: one;
   position: absolute;
   top: 0;
   left: 0;
 }
 .has-sous-nav:hover .sous-nav {
   display: block;
-  background-color: blueviolet;
+  background-color: rgb(42, 104, 55);
   position: relative;
+  color: #fff;
 }
